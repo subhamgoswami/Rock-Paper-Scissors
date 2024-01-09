@@ -1,0 +1,83 @@
+@media screen and (max-width: 750px) {
+    .picked {
+      margin: 20px;
+    }
+    main {
+      width: 425px;
+      margin: auto;
+      margin-top: 2pc;
+    }
+    .selection h1 {
+      margin-bottom: 46px;
+      font-size: 22px;
+    }
+    .selection {
+      display: none;
+      align-items: center;
+      text-align: center;
+      justify-content: space-around;
+      margin: auto;
+      width: 96%;
+      margin-top: 50px;
+      flex-wrap: wrap;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 10px;
+      border: 1px solid white;
+      border-radius: 12px;
+      padding: 11px 11px;
+    }
+    .reset-game {
+      margin: 20px;
+      margin-top: 40px;
+    }
+    .house-picked {
+      margin: 20px;
+    }
+    .image-rules {
+      width: 311px;
+      margin-top: 10pc;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .selection .circle {
+      transform: scale(0.9);
+    }
+    main {
+      width: 350px;
+      margin: auto;
+      margin-top: 2pc;
+    }
+    .selection {
+      width: 100%;
+      margin-top: 35px;
+    }
+    .selection h1 {
+      margin-bottom: 12px;
+      font-size: 17px;
+    }
+    .reset-game {
+      margin: 0px;
+    }
+    .picked {
+      margin: 0px;
+    }
+    .house-picked {
+      margin: 0px;
+    }
+    /* .btn-rules {
+      position: static;
+      width: fit-content;
+      margin-right: 12px;
+      margin-top: 51px;
+    }
+    .reset-btn {
+      margin-top: 51px;
+      position: static;
+      margin-left: 12px;
+    } */
+  }
